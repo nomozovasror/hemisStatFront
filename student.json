@@ -1,0 +1,371 @@
+{
+    "success": true,
+    "error": null,
+    "data": {
+      "education_type": {
+        "Bakalavr": {
+          "Erkak": 11080,
+          "Ayol": 12021
+        },
+        "Magistr": {
+          "Erkak": 182,
+          "Ayol": 223
+        },
+        "Jami": {
+          "Erkak": 11262,
+          "Ayol": 12244
+        }
+      },
+      "age": {
+        "Bakalavr": {
+          "30 yoshgacha": {
+            "Erkak": 9690,
+            "Ayol": 10364
+          },
+          "30 yoshdan katta": {
+            "Erkak": 1390,
+            "Ayol": 1657
+          },
+          "Jami": {
+            "Erkak": 11080,
+            "Ayol": 12021
+          }
+        },
+        "Magistr": {
+          "30 yoshgacha": {
+            "Erkak": 143,
+            "Ayol": 190
+          },
+          "30 yoshdan katta": {
+            "Erkak": 39,
+            "Ayol": 33
+          },
+          "Jami": {
+            "Erkak": 182,
+            "Ayol": 223
+          }
+        }
+      },
+      "payment": {
+        "To‘lov-shartnoma": {
+          "Bakalavr": 20603,
+          "Magistr": 165
+        },
+        "Davlat granti": {
+          "Bakalavr": 2498,
+          "Magistr": 240
+        }
+      },
+      "region": {
+        "Andijon viloyati": {
+          "Bakalavr": 79,
+          "Magistr": 0
+        },
+        "Buxoro viloyati": {
+          "Bakalavr": 162,
+          "Magistr": 4
+        },
+        "Farg‘ona viloyati": {
+          "Bakalavr": 113,
+          "Magistr": 3
+        },
+        "Jizzax viloyati": {
+          "Bakalavr": 89,
+          "Magistr": 1
+        },
+        "Namangan viloyati": {
+          "Bakalavr": 90,
+          "Magistr": 5
+        },
+        "Navoiy viloyati": {
+          "Bakalavr": 77,
+          "Magistr": 0
+        },
+        "Qashqadaryo viloyati": {
+          "Bakalavr": 946,
+          "Magistr": 3
+        },
+        "Qoraqalpog‘iston Resp.": {
+          "Bakalavr": 86,
+          "Magistr": 0
+        },
+        "Samarqand viloyati": {
+          "Bakalavr": 416,
+          "Magistr": 2
+        },
+        "Sirdaryo viloyati": {
+          "Bakalavr": 38,
+          "Magistr": 0
+        },
+        "Surxondaryo viloyati": {
+          "Bakalavr": 20601,
+          "Magistr": 377
+        },
+        "Toshkent shahri": {
+          "Bakalavr": 142,
+          "Magistr": 3
+        },
+        "Toshkent viloyati": {
+          "Bakalavr": 72,
+          "Magistr": 4
+        },
+        "Xorazm viloyati": {
+          "Bakalavr": 190,
+          "Magistr": 3
+        }
+      },
+      "citizenship": {
+        "O‘zbekiston Respublikasi fuqarosi": {
+          "Bakalavr": 23062,
+          "Magistr": 400
+        },
+        "Xorijiy davlat fuqarosi": {
+          "Bakalavr": 23,
+          "Magistr": 5
+        },
+        "Fuqaroligi yo‘q shaxslar": {
+          "Bakalavr": 16,
+          "Magistr": 0
+        }
+      },
+      "accommodation": {
+        "O‘z uyida": {
+          "Bakalavr": 12180,
+          "Magistr": 351
+        },
+        "Qarindoshining uyida": {
+          "Bakalavr": 533,
+          "Magistr": 0
+        },
+        "Tanishining uyida": {
+          "Bakalavr": 47,
+          "Magistr": 1
+        },
+        "Ijaradagi uyda": {
+          "Bakalavr": 5063,
+          "Magistr": 34
+        },
+        "Talabalar turar joyida": {
+          "Bakalavr": 5278,
+          "Magistr": 19
+        }
+      },
+      "education_form": {
+        "Bakalavr": {
+          "Kunduzgi": {
+            "Erkak": 4586,
+            "Ayol": 5593
+          },
+          "Sirtqi": {
+            "Erkak": 4628,
+            "Ayol": 5285
+          },
+          "Kechki": {
+            "Erkak": 761,
+            "Ayol": 546
+          },
+          "Maxsus sirtqi": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Qo‘shma": {
+            "Erkak": 42,
+            "Ayol": 34
+          },
+          "Masofaviy": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Ikkinchi oliy (kunduzgi)": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Ikkinchi oliy (sirtqi)": {
+            "Erkak": 1063,
+            "Ayol": 563
+          },
+          "Ikkinchi oliy (kechki)": {
+            "Erkak": 0,
+            "Ayol": 0
+          }
+        },
+        "Magistr": {
+          "Kunduzgi": {
+            "Erkak": 181,
+            "Ayol": 223
+          },
+          "Sirtqi": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Kechki": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Maxsus sirtqi": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Qo‘shma": {
+            "Erkak": 1,
+            "Ayol": 0
+          },
+          "Masofaviy": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Ikkinchi oliy (kunduzgi)": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Ikkinchi oliy (sirtqi)": {
+            "Erkak": 0,
+            "Ayol": 0
+          },
+          "Ikkinchi oliy (kechki)": {
+            "Erkak": 0,
+            "Ayol": 0
+          }
+        }
+      },
+      "level": {
+        "Bakalavr": {
+          "1-kurs": {
+            "Kunduzgi": 2123,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 893,
+            "Kechki": 160,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "2-kurs": {
+            "Kunduzgi": 1990,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 859,
+            "Kechki": 68,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 630,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "3-kurs": {
+            "Kunduzgi": 2000,
+            "Qo‘shma": 55,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 1844,
+            "Kechki": 99,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 497,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "4-kurs": {
+            "Kunduzgi": 4021,
+            "Qo‘shma": 21,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 2536,
+            "Kechki": 20,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 499,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "5-kurs": {
+            "Kunduzgi": 45,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 3781,
+            "Kechki": 960,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "6-kurs": {
+            "Kunduzgi": 0,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          }
+        },
+        "Magistr": {
+          "1-kurs": {
+            "Kunduzgi": 303,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "2-kurs": {
+            "Kunduzgi": 101,
+            "Qo‘shma": 1,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "3-kurs": {
+            "Kunduzgi": 0,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "4-kurs": {
+            "Kunduzgi": 0,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "5-kurs": {
+            "Kunduzgi": 0,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          },
+          "6-kurs": {
+            "Kunduzgi": 0,
+            "Qo‘shma": 0,
+            "Maxsus sirtqi": 0,
+            "Sirtqi": 0,
+            "Kechki": 0,
+            "Masofaviy": 0,
+            "Ikkinchi oliy (kechki)": 0,
+            "Ikkinchi oliy (sirtqi)": 0,
+            "Ikkinchi oliy (kunduzgi)": 0
+          }
+        }
+      }
+    },
+    "code": 200
+  }
