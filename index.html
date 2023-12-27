@@ -218,6 +218,23 @@
                         <div class="card-header ui-sortable-handle" style="cursor: move;">
                             <h3 class="card-title">
                                 <i class="fa-solid fa-users"></i>
+                                Demo
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <canvas id="employeeForm"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="card-header ui-sortable-handle" style="cursor: move;">
+                            <h3 class="card-title">
+                                <i class="fa-solid fa-users"></i>
                                 Talabalar yoshi bo‘yicha
                             </h3>
                             <div class="card-tools">
@@ -590,7 +607,7 @@
                 plugins: [ChartDataLabels]
             });
             studentAge.canvas.parentNode.style.maxheight = '400px';
-            
+
             // Talabalar yoshi bo‘yicha (Magistr)
             studentAgeDataMenMagister = [143, 39, 182,];
             studentAgeDataWomenMagister = [190, 33, 223,];
@@ -632,7 +649,7 @@
                 plugins: [ChartDataLabels]
             });
             studentAgeMagister.canvas.parentNode.style.maxheight = '400px';
-            
+
             // Talabalar to'lov shakli (Bakalavr)
             paymentsData = [20603, 2498,];
             var payments = new Chart(document.getElementById('payments'), {
@@ -1091,7 +1108,7 @@
             // 1-kurs
             course_magistr_data_1 = [303, 0, 0, 0, 0, 0, 0, 0, 0];
             course_m_1_sum = course_magistr_data_1.reduce((partialSum, a) => partialSum + a, 0);
-            
+
             // 2-kurs
             course_magistr_data_2 = [101, 1, 0, 0, 0, 0, 0, 0, 0];
             course_m_2_sum = course_magistr_data_2.reduce((partialSum, a) => partialSum + a, 0);
@@ -1134,6 +1151,78 @@
                 plugins: [ChartDataLabels]
             })
             course_magistr.canvas.parentNode.style.maxheight = '450px';
+
+
+
+            // Demo Script
+            // const employee_form = {{ home_page_data.employee_form_chart.value|safe }};
+            const employee_form = [1213, 3242, 3234, 5323, 5345, 5436];
+
+            var employeeForm = new Chart(document.getElementById('employeeForm'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['1213', '3242', '3234', '5323', '5345', '5436'],
+                    datasets: [{
+                        label: 'soni',
+                        data: employee_form,
+                        backgroundColor: [
+                            'rgb(255, 99, 132)',
+                            'rgb(54, 162, 235)',
+                            'rgb(0, 203, 207)',
+                            'rgb(255, 205, 86)',
+                            'rgb(255, 159, 64)',
+                            'rgb(153, 102, 255)',
+                            'rgb(255, 128, 128)',
+                            'rgb(180, 189, 255)',
+                            'rgb(61, 48, 162)',
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    aspectRatio: 1.05,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top',
+                        },
+                    }
+                },
+                plugins: [{
+                    id: 'text',
+                    beforeDraw: function (chart, a, b) {
+
+                        var width = chart.width,
+                            height = chart.height,
+                            ctx = chart.ctx,
+                            cutoutPercentage = chart.options.cutout.replace('%', '') / 100, // Convert cutout to decimal
+
+                            chartArea = chart.chartArea,
+                            centerX = (chartArea.left + chartArea.right) / 2,
+                            centerY = (chartArea.top + chartArea.bottom) / 2,
+                            innerRadius = Math.min((chartArea.right - chartArea.left) * cutoutPercentage, (chartArea.bottom - chartArea.top) * cutoutPercentage);
+
+                        ctx.restore();
+                        var fontSize = (innerRadius / 6).toFixed(2);
+                        ctx.font = fontSize + "px sans-serif";
+                        ctx.textBaseline = "middle";
+
+                        
+                        const sum = employee_form.reduce((partialSum, a) => partialSum + a, 0);
+
+                        var text = "" + sum,
+                            textX = centerX - ctx.measureText(text).width / 2,
+                            textY = centerY;
+
+                        ctx.fillText(text, textX, textY);
+                        ctx.save();
+                    }
+                }]
+            });
+            employeeForm.canvas.parentNode.style.maxheight = '450px';
+
+
 
         </script>
 
